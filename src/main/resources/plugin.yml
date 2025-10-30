@@ -1,0 +1,19 @@
+name: ZeroEvents
+version: '${project.version}'
+main: com.flypig.zeroEvents.ZeroEvents
+api-version: '1.21'
+author: FlyPig
+description: Event plugin with decorative pot drops
+depend: [FancyHolograms]
+
+commands:
+  zeroevents:
+    description: Управление плагином ZeroEvents
+    usage: /zeroevents <reload|start|info|loot>
+    aliases: [ze, events]
+    permission: zeroevents.admin
+
+permissions:
+  zeroevents.admin:
+    description: Администрирование плагина
+    default: op

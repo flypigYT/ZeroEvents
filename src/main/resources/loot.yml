@@ -1,0 +1,23 @@
+# Файл с настройками лута
+# Редактируется через команду /ze loot <vase|shulker|palm> <default|rare|mythic|legendary>
+
+# Лут для ваз
+vase:
+  default: {}
+  rare: {}
+  mythic: {}
+  legendary: {}
+
+# Лут для шалкеров
+shulker:
+  default: {}
+  rare: {}
+  mythic: {}
+  legendary: {}
+
+# Лут для пальм изобилия
+palm:
+  default: {}
+  rare: {}
+  mythic: {}
+  legendary: {}
